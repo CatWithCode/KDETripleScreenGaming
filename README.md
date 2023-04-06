@@ -14,8 +14,7 @@ STRG + ALT + T = AlwaysOnTop(Off/On)
 # Starting Game's:
 
 - Normal:
-
-gamescope -h 1440 -w 4720 -b %command%
+--gamescope -h 1440 -w 4720 -b %command%
 
 - MangoHUD:
 
