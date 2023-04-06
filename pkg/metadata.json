@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "no@no.no",
+                "Name": "No Nyao"
+            }
+        ],
+        "Description": "Make Window go BIG",
+        "Icon": "preferences-system-windows-effect-presetwindows",
+        "Id": "autotile",
+        "License": "MIT",
+        "Name": "GamingMode",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.2.1"
+    },
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+    "X-KDE-PluginKeyword": "FUCKYOU",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
