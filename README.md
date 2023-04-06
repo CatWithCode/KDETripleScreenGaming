@@ -1,6 +1,11 @@
 # LinuxTripleScreenGaming:
 Triple Screen Gaming on Linux without Nvidia Surround or similar.
 
+# Dependencies
+GamingMode-Kwin-Script (Den PKG-Order in eine .ZIP packen und dann Umbennenen zu "GamingMode.kwinscript". Dieses dann in den KDE-Einstellungen als KWin-Script importieren).
+
+gamescope
+
 # Hotkey's:
 SUPER + G = Gameing-Mode (4720x1440 und AlwaysOnTop(Off/On))
 
