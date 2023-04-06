@@ -1,6 +1,8 @@
 # LinuxTripleScreenGaming:
 Triple Screen Gaming on Linux without Nvidia Surround or similar.
 
+Script ist im Moment Hardcoded und die UI, Variablen usw. noch von dem KWin-Script welches ich als Basis genomen habe. NICHT VERÖFFENTLICHEN! WEGEN RESTE DER BASIS RECHTLICH NICHT LEGAL!
+
 # Dependencies
 - GamingMode-Kwin-Script (Den PKG-Order in eine .ZIP packen und dann Umbennenen zu "GamingMode.kwinscript". Dieses dann in den KDE-Einstellungen als KWin-Script importieren. EVTL. In den KDE-Einstellungen unter Kurzbefehle die Hotkey hinterlegen falls er sie nicht automatisch nimmt).
 
