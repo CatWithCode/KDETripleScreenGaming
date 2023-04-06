@@ -17,13 +17,10 @@ STRG + ALT + T = AlwaysOnTop(Off/On)
 
 gamescope -h 1440 -w 4720 -b %command%
 
-
 - MangoHUD:
 
 gamescope -h 1440 -w 4720 -b -- mangohud %command%
 
-
 - MangoHUD mit Parametern (BROKEN):
 
 gamescope -h 1440 -w 4720 -b -- MANGOHUD_CONFIG=fps_limit=165,fps_only mangohud %command%
-
