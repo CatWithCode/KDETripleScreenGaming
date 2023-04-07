@@ -3,7 +3,7 @@ Triple Screen Gaming on Linux without Nvidia Surround or similar.
 
 I tryed to create a UI for the Values, but could not find any usable documation about KWin-Scripts. Thats why you need to set the Values inside the ~/pkg/contents/code/main.js file.
 
-# COnfigurations:
+# Configurations:
 
 - geometry.x:
 
