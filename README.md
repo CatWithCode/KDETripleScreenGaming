@@ -44,7 +44,7 @@ gamescope -h 1440 -w 4720 -b %command%
 
 gamescope -h 1440 -w 4720 -b -- mangohud %command%
 
-- MangoHUD mit Parametern (DOSE !NOT! WORK! HELP NEEDED!):
+- MangoHUD with parameters (DOSE !NOT! WORK! HELP NEEDED!):
 
 gamescope -h 1440 -w 4720 -b -- MANGOHUD_CONFIG=fps_limit=165,fps_only mangohud %command%
 
