@@ -2,22 +2,21 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "no@no.no",
-                "Name": "No Nyao"
+                "Name": "CatWithCode"
             }
         ],
-        "Description": "Make Window go BIG",
+        "Description": "Make Window go over Multiple Screens",
         "Icon": "preferences-system-windows-effect-presetwindows",
-        "Id": "autotile",
+        "Id": "gamingwindow",
         "License": "MIT",
         "Name": "GamingMode",
         "ServiceTypes": [
             "KWin/Script"
         ],
-        "Version": "1.2.1"
+        "Version": "1.0"
     },
     "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
-    "X-KDE-PluginKeyword": "FUCKYOU",
+    "X-KDE-PluginKeyword": "GamingWindow",
     "X-Plasma-API": "javascript",
     "X-Plasma-MainScript": "code/main.js"
 }

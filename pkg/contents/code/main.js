@@ -1,15 +1,11 @@
-function setX(newX) {
-    workspace.activeClient.geometry.x = newX;
+//Put your Setup-Details here:
+function setGamingWindow(){
+    workspace.activeClient.geometry.x = 0;
+    workspace.activeClient.geometry.y = 240;
+    workspace.activeClient.geometry.width = 4720;
+    workspace.activeClient.geometry.height = 1440;
 }
-function setY(newY) {
-    workspace.activeClient.geometry.y = newY;
-}
-function setWidth(newWidth) {
-    workspace.activeClient.geometry.width = newWidth;
-}
-function setHeight(newHeight) {
-    workspace.activeClient.geometry.height = newHeight;
-}
+
 function setAbove() {
     if (workspace.activeClient.keepAbove) {
         workspace.activeClient.keepAbove = false;
@@ -17,13 +13,12 @@ function setAbove() {
         workspace.activeClient.keepAbove = true;
     }
 }
-// example: add a shortcut Meta+Z to set the window to position top-left screen corner and size 1920x1080
-registerShortcut("UltraWideGaming: 0,240 4720x1440",
-                 "UltraWideGaming: 0,240 4720x1440",
+registerShortcut("Move and Size GamingWindow",
+                 "Move and Size GamingWindow",
                  "Meta+G",
-                 () => {setX(0); setY(240); setWidth(4720); setHeight(1440); setAbove();});
+                 () => {setGamingWindow(); setAbove();});
 
-registerShortcut("ShowVideo",
-                 "ShowVideo",
+registerShortcut("Floating Top Window",
+                 "Floating Top Window",
                  "Ctrl+Alt+T",
                  () => {setAbove();});
