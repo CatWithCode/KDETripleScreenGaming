@@ -26,7 +26,7 @@ The required maximum height of the window.
 - gamescope
 
 # Hotkey's:
-SUPER + G = Gameing-Mode (4720x1440 und AlwaysOnTop(Off/On))
+SUPER + G = Gameing-Mode (GameWindow over all Screens, AlwaysOnTop(Off/On))
 
 STRG + ALT + T = AlwaysOnTop(Off/On)
 
