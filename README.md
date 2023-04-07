@@ -1,6 +1,8 @@
 # LinuxTripleScreenGaming:
 Triple Screen Gaming on Linux without Nvidia Surround or similar.
 
+More information: https://catwithcode.github.io/blog.html
+
 I tryed to create a UI for the Values, but could not find any usable documation about KWin-Scripts. Thats why you need to set the Values inside the ~/pkg/contents/code/main.js file.
 
 # Configurations:
@@ -22,6 +24,8 @@ Combine all screen widths.
 The required maximum height of the window.
 
 # Dependencies
+
+- KDE
 
 - gamescope
 
