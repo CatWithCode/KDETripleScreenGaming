@@ -22,7 +22,6 @@ Combine all screen widths.
 The required maximum height of the window.
 
 # Dependencies
-- GamingMode-Kwin-Script (Den PKG-Order in eine .ZIP packen und dann Umbennenen zu "GamingMode.kwinscript". Dieses dann in den KDE-Einstellungen als KWin-Script importieren. EVTL. In den KDE-Einstellungen unter Kurzbefehle die Hotkey hinterlegen falls er sie nicht automatisch nimmt).
 
 - gamescope
 
@@ -44,3 +43,17 @@ gamescope -h 1440 -w 4720 -b -- mangohud %command%
 - MangoHUD mit Parametern (BROKEN):
 
 gamescope -h 1440 -w 4720 -b -- MANGOHUD_CONFIG=fps_limit=165,fps_only mangohud %command%
+
+# Creating the .kwinscript (You could also just use the file from the Releases on the GitHub-Page):
+
+- Change the values inside the ~/pkg/contents/code/main.js to your Setup.
+
+- Create a .ZIP with only the pkg folder in it.
+
+- Rename it to "GamingMode.kwinscript".
+
+# Installation:
+
+- In the KDE-Settings, go to the KWin-Script-Section and install the .ZIP.
+
+- Enable it.
