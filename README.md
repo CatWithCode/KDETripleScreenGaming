@@ -1,7 +1,7 @@
 # LinuxTripleScreenGaming:
 Triple Screen Gaming on Linux without Nvidia Surround or similar.
 
-More information: https://catwithcode.github.io/blog.html
+More information: https://catwithcode.github.io/Blog/2023.04.07_Linux_Force_Triple_Screen_Gaming_without_Eyefinity_or_Surround/Linux_Force_Triple_Screen_Gaming_without_Eyefinity_or_Surround.html
 
 I tryed to create a UI for the Values, but could not find any usable documation about KWin-Scripts. Thats why you need to set the Values inside the ~/pkg/contents/code/main.js file.
 
