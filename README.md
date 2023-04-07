@@ -34,7 +34,7 @@ SUPER + G = Gameing-Mode (GameWindow over all Screens, AlwaysOnTop(Off/On))
 
 STRG + ALT + T = AlwaysOnTop(Off/On)
 
-# Starting Game's:
+# Starting Game's (Only Steam needs (%command%)):
 
 - Normal:
 
