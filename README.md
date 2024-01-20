@@ -1,5 +1,5 @@
-# LinuxTripleScreenGaming:
-Triple Screen Gaming on Linux without Nvidia Surround or similar.
+# KDETripleScreenGaming:
+Triple Screen Gaming on KDE without Nvidia Surround or similar.
 
 More information: https://catwithcode.github.io/Blog/2023.04.07_Linux_Force_Triple_Screen_Gaming_without_Eyefinity_or_Surround/Linux_Force_Triple_Screen_Gaming_without_Eyefinity_or_Surround.html
 
