@@ -66,7 +66,7 @@ gamescope -h 1440 -w 4720 -b -- mangohud %command%
 
 gamescope -h 1440 -w 4720 -b -- MANGOHUD_CONFIG=fps_limit=165,fps_only mangohud %command%
 
-# Creating the .kwinscript (You could also just use the file from the Releases on the GitHub-Page):
+# Creating the .kwinscript:
 
 - Change the values inside the ~/pkg/contents/code/main.js to your Setup.
 
