@@ -1,24 +1,19 @@
-//Put your Setup-Details here:
-function setGamingWindow(){
-    workspace.activeClient.geometry.x = 0;
-    workspace.activeClient.geometry.y = 240;
-    workspace.activeClient.geometry.width = 4720;
-    workspace.activeClient.geometry.height = 1440;
-}
+//Put Setup-Details here:
+function runScript(){
+    var client = workspace.activeWindow;
 
-function setAbove() {
-    if (workspace.activeClient.keepAbove) {
-        workspace.activeClient.keepAbove = false;
-    } else {
-        workspace.activeClient.keepAbove = true;
+    client.frameGeometry = {
+        x: 0, // From left most screen.
+        y: 50, // From Top most screen side.
+        height: 1440, //Y
+        width: 4720, //X
     }
-}
-registerShortcut("Move and Size GamingWindow",
-                 "Move and Size GamingWindow",
-                 "Meta+G",
-                 () => {setGamingWindow(); setAbove();});
 
-registerShortcut("Floating Top Window",
-                 "Floating Top Window",
-                 "Ctrl+Alt+T",
-                 () => {setAbove();});
+    // Always on top:
+    client.keepAbove = true;
+}
+
+// Hotkey:
+registerShortcut("GamingWindow-Maker", "GamingWindow-Maker", "Meta+G", function () {
+    runScript();
+});

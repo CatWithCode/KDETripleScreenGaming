@@ -1,22 +1,21 @@
 {
     "KPlugin": {
+        "Name": "GamingWindow for Plasma6",
+        "Description": "Make Window go over Multiple Screens",
+        "Icon": "preferences-system-windows",
+        
         "Authors": [
             {
+                "Email": "private.contact@catwithcode.moe",
                 "Name": "CatWithCode"
             }
         ],
-        "Description": "Make Window go over Multiple Screens",
-        "Icon": "preferences-system-windows-effect-presetwindows",
-        "Id": "gamingwindow",
+        "Id": "GamingWindow_666",
+        "Version": "2.0.0",
         "License": "MIT",
-        "Name": "GamingMode",
-        "ServiceTypes": [
-            "KWin/Script"
-        ],
-        "Version": "1.0"
+        "Website": "https://catwithcode.moe/"
     },
-    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
-    "X-KDE-PluginKeyword": "GamingWindow",
     "X-Plasma-API": "javascript",
-    "X-Plasma-MainScript": "code/main.js"
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
 }

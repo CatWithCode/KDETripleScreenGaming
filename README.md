@@ -5,6 +5,24 @@ More information: https://catwithcode.github.io/Blog/2023.04.07_Linux_Force_Trip
 
 I tryed to create a UI for the Values, but could not find any usable documation about KWin-Scripts. Thats why you need to set the Values inside the ~/pkg/contents/code/main.js file.
 
+# Window Rule:
+
+class = gamescope
+
+Apply Initially:
+----------------
+
+Position = yours
+
+Size = yours
+
+Force:
+------
+
+Keep above other windows = Yes
+
+No titlebar and frame = Yes
+
 # Configurations:
 
 - geometry.x:
